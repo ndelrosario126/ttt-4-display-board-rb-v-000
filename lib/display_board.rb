@@ -10,5 +10,6 @@ def display_board(board)
 end
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+board_x_wins = ["X", "X", "X", " ", " ", " ", " ", " ", " "] 
 
-puts display_board(board)
+puts display_board(board_x_wins)
